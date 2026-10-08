@@ -30,8 +30,8 @@ public abstract class InventoryScreenMixin {
 			graphics.blitSprite(
 					RenderPipelines.GUI_TEXTURED,
 					SLOT_SPRITE,
-					screen.toolbelt$getLeftPos() + 178,
-					screen.toolbelt$getTopPos() + 8 + row * 18,
+					screen.toolbelt$getLeftPos() + 177,
+					screen.toolbelt$getTopPos() + 7 + row * 18,
 					18,
 					18
 			);
