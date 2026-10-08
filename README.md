@@ -28,6 +28,7 @@ The Minecraft sprites are shared with vanilla, so overriding them also changes
 their vanilla uses throughout the game.
 
 ## Setup
+> Dependencies: Fabric API
 
 **Download the .jar**  
 (or build the mod with `gradlew build`. The remapped mod jar is written to
