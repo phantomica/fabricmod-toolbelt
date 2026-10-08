@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"package": "net.phantomica.toolbelt.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"PlayerMixin",
+		"LivingEntityMixin",
+		"InventoryMixin",
+		"InventoryMenuMixin",
+		"AbstractContainerMenuAccessor"
+	],
+	"client": [
+		"client.InventoryScreenMixin",
+		"client.AbstractContainerScreenAccessor",
+		"client.MouseHandlerMixin",
+		"client.HudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
