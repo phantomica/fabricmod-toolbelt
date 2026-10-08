@@ -30,6 +30,6 @@ their vanilla uses throughout the game.
 ## Setup
 > Dependencies: Fabric API
 
-**Download the .jar**  
+**Download the .jar** under *Releases* (on the right)  
 (or build the mod with `gradlew build`. The remapped mod jar is written to
 `build/libs`)
