@@ -41,7 +41,7 @@ public abstract class HudMixin {
 		}
 
 		int center = graphics.guiWidth() / 2;
-		int x = center - 91 - visibleSlots * 20 - 30;
+		int x = center - 91 - visibleSlots * 20 - 29;
 		int y = graphics.guiHeight() - 22;
 		int swordSlotX = showSword ? x : -1;
 		int toolSlotX = showTools ? x + (showSword ? 20 : 0) : -1;
